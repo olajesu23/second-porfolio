@@ -526,6 +526,35 @@ form.error input {
     background-size: 100% auto;
     background-position: 100% -2%;
   }
+  .headers {
+    text-align: center;
+    border: 10px  solid rgb(105, 105, 199);
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    background-color: rgb(102, 102, 234);  
+    transition: all 0.1s;
+    display: flex;
+    justify-content: center;
+     
+  }
+  /* .headers li:hover{
+    transition: all 0.5s;
+    transform: scale(1.4);
+  
+  
+  } */
+  .headers:hover{
+    
+          /* background: #be0722; */
+          text-decoration: none;
+          transition: all 0.5s;
+          transform: scale(1.2);
+         
+  }
 
   .menu-desktop {
     display: flex;
