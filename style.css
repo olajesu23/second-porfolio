@@ -8,6 +8,11 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+body {
+  background: url('../images/desktop-background.svg') no-repeat;
+  background-size: 100% auto;
+  background-position: 100% -2%;
+}
 
 .headers {
   text-align: center;
@@ -16,7 +21,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   width: 200px;
-  margin-left: 400px;
+  margin-left: 150px;
   margin-bottom: 20px;
   background-color: rgb(102, 102, 234);  
   transition: all 0.1s;
@@ -518,7 +523,16 @@ form.error input {
   border: 2px solid rgb(255, 0, 0);
 }
 
+
 /* ========================= Media Queries ================================ */
+/* @media (max-width: 468px) {
+  body {
+    background: url('../images/desktop-background.svg') no-repeat;
+    background-size: 100% auto;
+    background-position: 100% -2%;
+  } */
+  
+
 
 @media (min-width: 992px) {
   body {
@@ -533,6 +547,7 @@ form.error input {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 200px;
+    padding-right: 20px;
     margin-left: 400px;
     margin-bottom: 20px;
     background-color: rgb(102, 102, 234);  
